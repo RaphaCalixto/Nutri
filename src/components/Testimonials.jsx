@@ -5,24 +5,24 @@ import { Star, Quote } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
+      name: "Júlia Mendes",
+      role: "Avaliação no Google",
+      avatar: "/avatars/julia-mendes.png",
+      content: "Excelente profissional! Muito gentil, cuidadosa e atenciosa em cada detalhe. Dá pra perceber o carinho e o cuidado que ela tem com os pacientes, sempre explicando tudo com calma e tratando a gente com muita simpatia. Me senti acolhida logo no primeiro atendimento. Recomendo demais!",
+      stars: 5
+    },
+    {
       name: "Wellington Francelino",
       role: "Avaliação no Google",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
-      content: "Excelente profissional, tirou todas as minhas dúvidas e me auxiliou no meu processo de emagrecimento, com um acompanhamento próximo e com uma dieta dentro da minha rotina. Nota 10!",
+      avatar: "/avatars/wellington-francelino.png",
+      content: "excelente profissional, tirou todas as minhas dúvidas e me auxiliou no meu processo de emagrecimento, com um acompanhamento próximo e com uma dieta dentro da minha rotina. nota 10",
       stars: 5
     },
     {
-      name: "Victor Malavasi",
+      name: "Amanda Vital",
       role: "Avaliação no Google",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
-      content: "Excelente profissional! Desde o primeiro atendimento, demonstrou muita atenção aos detalhes, conhecimento técnico e segurança nas orientações. Além de extremamente qualificada, é uma pessoa muito empática, que realmente escuta e entende as nossas necessidades.",
-      stars: 5
-    },
-    {
-      name: "Miin",
-      role: "Avaliação no Google",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
-      content: "Ela é simplesmente maravilhosa!! Super atenciosa, tira todas as suas dúvidas, sempre está disponível quando você precisa, respeita sua rotina e seu momento, não força uma mudança radical na alimentação e sempre deixa claro para ir aos poucos. Seus pacientes tem muitaaaa sorte de tê-la encontrado!!",
+      avatar: "/avatars/amanda-vital.png",
+      content: "Nutricionista maravilhosa, super atenciosa, estou gostando bastante da experiência. Escutou sobre as minhas dificuldades em seguir uma dieta e adaptou o plano alimentar com as minhas preferências e levando em consideração a minha rotina, fazendo assim o processo de seguir uma dieta muito mais leve e prático. Já melhorei alguns hábitos seguindo o plano alimentar elaborado pela Laís.",
       stars: 5
     }
   ];
