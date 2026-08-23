@@ -5,24 +5,24 @@ import { Star, Quote } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Mariana S.",
-      role: "Perdeu 12kg com saúde",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
-      content: "Já tinha tentado diversas dietas restritivas e sempre voltava a engordar no efeito sanfona. Com o acompanhamento da Dra. Laís Leal aprendi a comer sem culpa e conquistei meu peso ideal comendo comida de verdade!",
+      name: "Wellington Francelino",
+      role: "Avaliação no Google",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+      content: "Excelente profissional, tirou todas as minhas dúvidas e me auxiliou no meu processo de emagrecimento, com um acompanhamento próximo e com uma dieta dentro da minha rotina. Nota 10!",
       stars: 5
     },
     {
-      name: "Carlos H.",
-      role: "Ganho de massa muscular & treino",
+      name: "Victor Malavasi",
+      role: "Avaliação no Google",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
-      content: "Meu foco era hipertrofia e mais disposição no dia a dia. O plano ajustado pra minha rotina corrida deu resultados incríveis nos meus exames e na minha composição corporal em menos de 3 meses.",
+      content: "Excelente profissional! Desde o primeiro atendimento, demonstrou muita atenção aos detalhes, conhecimento técnico e segurança nas orientações. Além de extremamente qualificada, é uma pessoa muito empática, que realmente escuta e entende as nossas necessidades.",
       stars: 5
     },
     {
-      name: "Patrícia L.",
-      role: "Saúde intestinal recuperada",
-      avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
-      content: "Sofria com estufamento constante e cansaço extremo. A Dra. Laís Leal fez uma investigação minuciosa da minha digestão. Hoje me sinto leve, com energia renovada e sem dores abdominais.",
+      name: "Miin",
+      role: "Avaliação no Google",
+      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+      content: "Ela é simplesmente maravilhosa!! Super atenciosa, tira todas as suas dúvidas, sempre está disponível quando você precisa, respeita sua rotina e seu momento, não força uma mudança radical na alimentação e sempre deixa claro para ir aos poucos. Seus pacientes tem muitaaaa sorte de tê-la encontrado!!",
       stars: 5
     }
   ];
@@ -33,14 +33,14 @@ export default function Testimonials() {
         
         {/* Header */}
         <div className="flex flex-col items-center text-center space-y-4 mb-16">
-          <div className="inline-flex items-center gap-2 bg-white px-4 py-1.5 rounded-full border border-sage-200 shadow-sm text-xs font-semibold text-brand-dark">
-            <span className="text-gold-500 font-bold">5.0</span>
+          <div className="inline-flex items-center gap-2.5 bg-white px-5 py-2.5 rounded-full border border-sage-200 shadow-sm text-xs font-semibold text-brand-dark">
+            <span className="text-gold-600 font-bold text-sm">5,0</span>
             <div className="flex items-center gap-0.5">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-3.5 h-3.5 fill-gold-500 text-gold-500" />
+                <Star key={i} className="w-4 h-4 fill-gold-500 text-gold-500" />
               ))}
             </div>
-            <span className="text-brand-dark/70">• Avaliações no Google</span>
+            <span className="text-brand-dark font-bold text-xs sm:text-sm">• 142 avaliações 5★ no Google</span>
           </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-brand-dark max-w-2xl leading-tight">
@@ -48,7 +48,7 @@ export default function Testimonials() {
           </h2>
 
           <p className="text-base text-brand-dark/75 max-w-lg">
-            Veja como o acompanhamento nutricional integrativo mudou a rotina e a saúde dos nossos pacientes.
+            Veja o que os pacientes dizem sobre o acompanhamento nutricional integrativo da Dra. Laís Leal.
           </p>
         </div>
 
@@ -103,10 +103,10 @@ export default function Testimonials() {
             href="https://share.google/8cl1ALLiXTbry8fgJ"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-brand-dark hover:text-sage-700 bg-white px-6 py-3 rounded-full border border-sage-300 shadow-sm hover:shadow transition-all"
+            className="inline-flex items-center gap-3 text-xs sm:text-sm font-bold text-brand-dark hover:text-sage-700 bg-white px-7 py-3.5 rounded-full border border-sage-300 shadow-sm hover:shadow-md transition-all group"
           >
-            <span>Ver todas as avaliações no Google</span>
-            <span className="text-sage-600">→</span>
+            <span>Ver todas as 142 avaliações 5★ no Google</span>
+            <span className="text-sage-600 group-hover:translate-x-1 transition-transform">→</span>
           </a>
         </div>
 
