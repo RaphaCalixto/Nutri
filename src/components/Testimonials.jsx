@@ -33,9 +33,15 @@ export default function Testimonials() {
         
         {/* Header */}
         <div className="flex flex-col items-center text-center space-y-4 mb-16">
-          <span className="text-xs font-bold uppercase tracking-widest text-sage-600 bg-sage-100 px-4 py-1.5 rounded-full border border-sage-200">
-            Depoimentos Reais
-          </span>
+          <div className="inline-flex items-center gap-2 bg-white px-4 py-1.5 rounded-full border border-sage-200 shadow-sm text-xs font-semibold text-brand-dark">
+            <span className="text-gold-500 font-bold">5.0</span>
+            <div className="flex items-center gap-0.5">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-3.5 h-3.5 fill-gold-500 text-gold-500" />
+              ))}
+            </div>
+            <span className="text-brand-dark/70">• Avaliações no Google</span>
+          </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-brand-dark max-w-2xl leading-tight">
             Conheça as Transformações
@@ -89,6 +95,19 @@ export default function Testimonials() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        {/* Link to Google Reviews */}
+        <div className="mt-12 flex justify-center">
+          <a
+            href="https://share.google/8cl1ALLiXTbry8fgJ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-brand-dark hover:text-sage-700 bg-white px-6 py-3 rounded-full border border-sage-300 shadow-sm hover:shadow transition-all"
+          >
+            <span>Ver todas as avaliações no Google</span>
+            <span className="text-sage-600">→</span>
+          </a>
         </div>
 
       </div>

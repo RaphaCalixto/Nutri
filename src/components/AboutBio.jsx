@@ -39,6 +39,9 @@ export default function AboutBio() {
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-brand-dark leading-tight">
                 Conheça a Dra. Laís Leal
               </h2>
+              <span className="text-xs font-semibold text-sage-700 bg-sage-200/50 px-3 py-1 rounded-md border border-sage-300">
+                CRN-3 71644
+              </span>
 
               <p className="text-base sm:text-lg text-brand-dark/85 font-normal leading-relaxed">
                 Nutricionista Clínica e Esportiva graduada e pós-graduada em Nutrição Integrativa e Fitoterapia. Com mais de 8 anos de experiência em consultório, minha paixão é transformar vidas através da comida de verdade.

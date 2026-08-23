@@ -97,7 +97,7 @@ export default function Footer() {
 
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-sage-200/50 gap-4">
-          <p>© {new Date().getFullYear()} Dra. Laís Leal Nutricionista. Todos os direitos reservados. CRN-3 12345/P.</p>
+          <p>© {new Date().getFullYear()} Dra. Laís Leal Nutricionista. Todos os direitos reservados. CRN-3 71644.</p>
           <p className="tracking-widest uppercase">Desenvolvido com excelência</p>
         </div>
 
