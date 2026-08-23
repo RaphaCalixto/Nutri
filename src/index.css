@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F3ED;
+    color: #1C2920;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  }
+}
+
+/* Background Fruit Line Art Watermark Pattern */
+.bg-leaf-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%233E5645' stroke-width='1.2' stroke-opacity='0.08' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M 45,25 C 35,15 20,25 25,40 C 28,50 40,55 45,55 C 50,55 62,50 65,40 C 70,25 55,15 45,25 Z'/%3E%3Cpath d='M 45,23 Q 48,15 52,10'/%3E%3Cpath d='M 48,17 Q 56,15 54,22 Z'/%3E%3Ccircle cx='150' cy='40' r='18'/%3E%3Ccircle cx='150' cy='40' r='14'/%3E%3Cline x1='150' y1='26' x2='150' y2='54'/%3E%3Cline x1='136' y1='40' x2='164' y2='40'/%3E%3Cline x1='140' y1='30' x2='160' y2='50'/%3E%3Cline x1='140' y1='50' x2='160' y2='30'/%3E%3Cpath d='M 45,130 C 35,130 30,145 30,160 C 30,175 40,185 50,185 C 60,185 70,175 70,160 C 70,145 65,130 55,130 Z'/%3E%3Ccircle cx='50' cy='165' r='9'/%3E%3Cpath d='M 150,130 C 145,130 142,140 138,148 C 134,156 132,165 138,175 C 144,185 156,185 162,175 C 168,165 166,156 162,148 C 158,140 155,130 150,130 Z'/%3E%3Cpath d='M 150,128 Q 152,120 156,115'/%3E%3Cpath d='M 152,122 Q 160,120 157,126 Z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Custom arch shapes for images */
+.arch-frame {
+  border-radius: 180px 180px 24px 24px;
+}
+
+.arch-full {
+  border-radius: 999px 999px 0 0;
+}
+
+/* Leaf SVG Overlay Decoration */
+.leaf-overlay {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.12;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F3ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #A9C2AD;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5C7E63;
+}
