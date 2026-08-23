@@ -78,7 +78,7 @@ export default function Methodology() {
         {/* Bottom CTA Button */}
         <div className="mt-14 flex justify-center">
           <a
-            href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Quero%20entender%20mais%20sobre%20a%20metodologia%20de%20atendimento."
+            href="https://wa.me/5511917908668?text=Ol%C3%A1%21%20Quero%20entender%20mais%20sobre%20a%20metodologia%20de%20atendimento."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-beige-300 hover:bg-beige-400 text-brand-dark px-9 py-4 rounded-full text-xs font-semibold uppercase tracking-wider shadow-pill transition-all duration-300 transform hover:-translate-y-0.5"

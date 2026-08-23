@@ -5,7 +5,7 @@ import { MessageCircle, X } from 'lucide-react';
 export default function WhatsappWidget() {
   const [showTooltip, setShowTooltip] = useState(true);
 
-  const whatsappUrl = "https://wa.me/5511999999999?text=Ol%C3%A1%21%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20acompanhamento%20nutricional%20da%20Dra.%20La%C3%ADs%20Leal.";
+  const whatsappUrl = "https://wa.me/5511917908668?text=Ol%C3%A1%21%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20acompanhamento%20nutricional%20da%20Dra.%20La%C3%ADs%20Leal.";
 
   return (
     <div className="fixed bottom-6 left-6 z-50 flex items-end gap-3 pointer-events-none">

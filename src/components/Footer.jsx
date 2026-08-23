@@ -39,7 +39,7 @@ export default function Footer() {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5511917908668"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-sage-800 hover:bg-sage-600 text-white flex items-center justify-center transition-colors"
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4 text-sage-400 flex-shrink-0" />
-                <span>(11) 99999-9999</span>
+                <span>(11) 91790-8668</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-sage-400 flex-shrink-0" />

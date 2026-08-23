@@ -49,7 +49,7 @@ export default function Navbar() {
           {/* Desktop CTA Button */}
           <div className="hidden lg:flex items-center">
             <a
-              href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20nutricional."
+              href="https://wa.me/5511917908668?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20nutricional."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-brand-button hover:bg-brand-buttonHover text-white px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider shadow-pill transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2"
@@ -84,7 +84,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20nutricional."
+            href="https://wa.me/5511917908668?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20nutricional."
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}

@@ -45,7 +45,7 @@ export default function FinalCta() {
 
               <div className="pt-4 w-full sm:w-auto">
                 <a
-                  href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Quero%20agendar%20minha%20consulta%20nutricional%20agora."
+                  href="https://wa.me/5511917908668?text=Ol%C3%A1%21%20Quero%20agendar%20minha%20consulta%20nutricional%20agora."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 bg-beige-300 hover:bg-beige-400 text-brand-dark px-9 py-4 rounded-full text-xs font-semibold uppercase tracking-wider shadow-pill transition-all duration-300 transform hover:-translate-y-1 w-full sm:w-auto group"

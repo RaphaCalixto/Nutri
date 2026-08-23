@@ -60,7 +60,7 @@ export default function LocationSection() {
             {/* CTA Button */}
             <div className="pt-2 w-full sm:w-auto">
               <a
-                href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20presencial%20no%20consult%C3%B3rio."
+                href="https://wa.me/5511917908668?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20presencial%20no%20consult%C3%B3rio."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-brand-button hover:bg-brand-buttonHover text-white px-8 py-4 rounded-full text-xs font-semibold uppercase tracking-wider shadow-pill transition-all duration-300 transform hover:-translate-y-0.5 w-full sm:w-auto"

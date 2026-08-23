@@ -51,7 +51,7 @@ export default function TargetAudience() {
             {/* CTA Button */}
             <div className="pt-2 w-full sm:w-auto">
               <a
-                href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Quero%20saber%20se%20o%20acompanhamento%20nutricional%20%C3%A9%20indicado%20para%20o%20meu%20caso."
+                href="https://wa.me/5511917908668?text=Ol%C3%A1%21%20Quero%20saber%20se%20o%20acompanhamento%20nutricional%20%C3%A9%20indicado%20para%20o%20meu%20caso."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-brand-button hover:bg-brand-buttonHover text-white px-8 py-4 rounded-full text-xs font-semibold uppercase tracking-wider shadow-pill transition-all duration-300 transform hover:-translate-y-0.5 w-full sm:w-auto"

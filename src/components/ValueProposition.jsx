@@ -85,7 +85,7 @@ export default function ValueProposition() {
               {/* CTA Button */}
               <div className="pt-4 w-full sm:w-auto">
                 <a
-                  href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20consulta%20nutricional."
+                  href="https://wa.me/5511917908668?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20consulta%20nutricional."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 bg-brand-button hover:bg-brand-buttonHover text-white px-8 py-4 rounded-full text-xs font-semibold uppercase tracking-wider shadow-pill hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 w-full sm:w-auto"
